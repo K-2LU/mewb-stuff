@@ -41,7 +41,7 @@ void launch()   {
             break;
         }
         
-        if(emptyCells==0){
+        if(emptyCells==1){
             std::cout << "Draw" << std::endl;
             break;
         }
