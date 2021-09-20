@@ -60,15 +60,3 @@ bool defCPU(char (&table)[3][3], bool (&visited)[3][3], int &emptyCells, int &x,
     
     return false;
 }
-
-/*
-    char temp[3];
-    temp[0] = table[0][0];
-    temp[1] = table[1][1];
-    temp[2] = table[2][2];
-    
-
-    temp[0] = table[0][2];
-    temp[1] = table[1][1];
-    temp[2] = table[2][0];
-    */
